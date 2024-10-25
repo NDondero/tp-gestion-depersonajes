@@ -1,0 +1,5 @@
+@for (character of characters; track character.id) {
+    <app-character-card (deleteEvent)="onDelete($event)" (navigateEvent)="onNavigate($event)" [character]="character"></app-character-card>
+} @empty {
+    <p>Aun no hay personajes!</p>
+}

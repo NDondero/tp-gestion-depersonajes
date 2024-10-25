@@ -1,0 +1,27 @@
+<form (ngSubmit)="addCharacter()" #characterForm="ngForm">
+    <fieldset>
+        <legend>Agregar un Personaje</legend>
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required [(ngModel)]="model.name" name="name" #name="ngModel"
+                autocomplete="name">
+            <div [hidden]="name.valid || name.pristine">El Nombre es requerido</div>
+        </div>
+        <div>
+            <label for="alias">Alias</label>
+            <input type="text" id="alias" required [(ngModel)]="model.alias" name="alias" #alias="ngModel">
+            <div [hidden]="alias.valid || alias.pristine">El Alias es requerido</div>
+        </div>
+        <div>
+            <label for="powers">Poderes y Habilidades</label>
+            <input type="text" id="powers" required [(ngModel)]="model.powers" name="powers" #powers="ngModel">
+            <div [hidden]="powers.valid || powers.pristine">El Personaje no puede no tener poderes o habilidades</div>
+        </div>
+        <div>
+            <label for="description">Descripción</label>
+            <input type="text" id="description" required [(ngModel)]="model.description" name="description" #description="ngModel">
+            <div [hidden]="description.valid || description.pristine">La Descripción es requerida</div>
+        </div>
+        <button type="submit" [disabled]="!characterForm.form.valid">Agregar</button>
+    </fieldset>
+</form>

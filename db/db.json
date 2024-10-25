@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "id": "9e85",
+      "name": "Bruce Wayne",
+      "alias": "Batman",
+      "powers": "El mejor detective del mundo",
+      "description": "Batman es un superhéroe sin superpoderes, conocido por su inteligencia, habilidades de detective y su inquebrantable voluntad de luchar contra el crimen. Bajo la máscara se encuentra Bruce Wayne, un multimillonario que, tras presenciar el asesinato de sus padres cuando era niño, juró dedicar su vida a combatir la injusticia en su ciudad, Gotham."
+    },
+    {
+      "id": "d222",
+      "name": "Clark Kent",
+      "alias": "Superman",
+      "powers": "Superfuerza, Supervelocidad, Vuelo",
+      "description": "Superman es uno de los superhéroes más icónicos y poderosos del mundo. Originario del planeta Krypton, fue enviado a la Tierra cuando su planeta natal estaba a punto de ser destruido. Criado por los Kent como Clark Kent, Superman posee una variedad de superpoderes que lo distinguen."
+    },
+    {
+      "id": "dab4",
+      "name": "Diana Prince",
+      "alias": "Wonder Woman",
+      "powers": "Fuerza sobrehumana, Velocidad sobrehumana, Vuelo",
+      "description": "La Mujer Maravilla es una princesa guerrera de las Amazonas, un pueblo ficticio basado en la mitología griega. Criada en la isla de Themyscira, Diana Prince, como se hace llamar en el mundo de los mortales, posee una fuerza, velocidad y resistencia sobrehumanas, además de habilidades de combate excepcionales gracias a su entrenamiento como amazona."
+    }
+  ]
+}
