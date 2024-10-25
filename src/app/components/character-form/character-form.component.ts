@@ -26,7 +26,7 @@ export class CharacterFormComponent {
   }
 
   addCharacter() {
-    this.service.addCharacter(this.model).subscribe({
+    this.service.postCharacter(this.model).subscribe({
       next: () => {
         this.router.navigate(['characters']);
       },

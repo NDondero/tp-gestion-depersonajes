@@ -25,7 +25,7 @@ export class CharacterService {
     return this.http.get<Character>(`${this.baseUrl}/${id}`);
   }
 
-  addCharacter(character: Character): Observable<Character> {
+  postCharacter(character: Character): Observable<Character> {
     return this.http.post<Character>(this.baseUrl, character);
   }
 
